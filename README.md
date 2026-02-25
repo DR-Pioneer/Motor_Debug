@@ -1,14 +1,14 @@
 # Motor_Debug
-This is a software tool based on FOC/BLDC motor control strategies, which generates corresponding control code according to the chip model and packaging method. It aims to quickly demonstrate motor solutions and provide motor parameter tuning functions.
+这是一款基于FOC/BLDC电机控制策略的软件工具，可根据芯片型号和封装方式生成相应的控制代码。其目标是快速演示电机解决方案并提供电机参数调节功能。
 ## OVERVIEW
 ![image](https://github.com/DR-Pioneer/Motor_Debug/blob/main/assert/overview.png).
 ## Guide
-- In the new configuration, select the appropriate control method/chip/package.
-- In the parameter navigation on the left, select the appropriate control parameters for the motor.
-- Quick switching between motor control pins, multiplexing, and multiplexing functions can be achieved without opening the chip reference manual.
-- You can perform compilation, linking, and downloading functions without opening the Keil software.
+- 在新配置中，选择合适的控制方法/芯片/封装。
+- 在左侧的参数导航中，选择电机的相应控制参数。
+- 无需打开芯片参考手册，即可实现电机控制引脚、多路复用和多路复用功能之间的快速切换。
+- 您无需打开 Keil 软件即可执行编译、链接和下载功能。
 ## Requisites
-- install the JLink driver https://www.segger.com/downloads/jlink/.
-- install Keil5 software.
+- 安装JLink驱动：https://www.segger.com/downloads/jlink/.
+- 安装Keil5开发软件.
 ## Environment
 - windows
